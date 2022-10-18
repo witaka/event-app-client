@@ -25,6 +25,7 @@ const RegistrationsForm = (props) => {
         props.history.push(`/registrations/${id}`);
       });
     }
+    setErrors(newErrors)
   }
 
   const findFormErrors = () => {
